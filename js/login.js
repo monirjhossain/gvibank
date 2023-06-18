@@ -15,7 +15,7 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
 
     if(email === 'monir@gmail.com' && password ==='123456'){
-        console.log('Valid user id')
+        window.location.href = 'bank.html';
     }else{
         console.log('You are not valid id');
     }

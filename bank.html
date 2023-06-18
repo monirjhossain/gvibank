@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-green-600 text-center text-5xl mt-6">Bank <span class="text-red-600"> Account</span></h1>
+    </header>
+
+    <main>
+        <section class="block">
+            <div class="grid grid-cols-3 mt-5 w-9/12 gap-4 mx-auto p-8 text-white rounded">
+                <div class="bg-orange-400 p-8 rounded-xl">
+                    <h4 class="text-2xl">Diposite</h4>
+                    <h2 class="text-5xl">00 Tk.</h2>
+                </div>
+                <div class="bg-lime-600  p-8 rounded-xl">
+                    <h4 class="text-2xl">Balacne</h4>
+                    <h2 class="text-5xl">00 Tk.</h2>
+                </div>
+                <div class="bg-violet-400 p-8 rounded-xl">
+                    <h3 class="text-2xl">Withdraw</h3>
+                    <h3 class="text-5xl">00 Tk.</h3>
+                </div>
+            </div>
+        </section>
+
+        <!--Diposite & Withdraw Section-->
+        <section>
+            <div class="grid grid-cols-2 mt-5 w-9/12 gap-4 mx-auto p-8 text-white rounded">
+                <div class="bg-pink-400 p-8 rounded-xl">
+                    <h4 class="text-2xl mb-2">Diposite</h4>
+                    <input type="text" name="diposite" id="user-diposite" class="px-3 py-2 border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-6/12 rounded-md sm:text-sm focus:ring-1" placeholder="Diposite Amount " />
+                    <button id="btn-submit" class="bg-orange-400 px-8 py-2 mt-4 text-white rounded hover:bg-green-700">Submit</button>
+                </div>
+                <div class="bg-blue-400  p-8 rounded-xl">
+                    <h4 class="text-2xl mb-2">Withdraw</h4>
+                    <input type="text" name="withdraw" id="user-withdraw" class="px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-6/12 rounded-md sm:text-sm focus:ring-1" placeholder="Withdraw Amount " />
+                    <button id="btn-submit" class="bg-orange-400 px-8 py-2 mt-4 text-white rounded hover:bg-green-700">Submit</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
